@@ -1,0 +1,34 @@
+{
+  "name": "yukiko-image-processor",
+  "version": "1.0.0",
+  "description": "A small API that's used to process images for the discord bot Yukiko. This API include card generation, and memes image generation based of avatars or images sent via Discord attachment.",
+  "main": "src/app.js",
+  "scripts": {
+    "dev": "nodemon start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Yukiko-Dev-Team/Yukiko-Image-Processor.git"
+  },
+  "keywords": [
+    "Yukiko",
+    "Discord",
+    "bot",
+    "image",
+    "processing",
+    "API",
+    "nodeJS",
+    "express"
+  ],
+  "author": "Yukiko-Dev-Team",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/Yukiko-Dev-Team/Yukiko-Image-Processor/issues"
+  },
+  "homepage": "https://github.com/Yukiko-Dev-Team/Yukiko-Image-Processor#readme",
+  "dependencies": {
+    "canvas": "^2.9.3",
+    "express": "^4.18.1"
+  }
+}
